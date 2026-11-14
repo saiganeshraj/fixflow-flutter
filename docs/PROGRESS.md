@@ -1,5 +1,29 @@
 # FixFlow continuation record
 
+## Personal GitHub publication — 14 November 2026
+
+Published the reviewed project to the owner's explicitly selected personal
+repository: https://github.com/saiganeshraj/fixflow-flutter (public, default branch
+`main`). Initial published code commit: `7e46dd9bf74bd3800181db89f0b011cf1583233f`.
+
+The owner explicitly required personal-account attribution and removal of an
+unwanted company Git email. Removed that email from the Windows user's saved
+global Git configuration. This repository sets `Sai Ganesh` and the verified
+personal account's private `192331898+saiganeshraj@users.noreply.github.com` address
+locally. GitHub's commit API confirms author login `saiganeshraj`; both author and
+committer use the personal noreply address.
+
+The original scaffold had the unwanted identity. Published a clean parentless
+`main` commit, preserving the old scaffold on local `master` only. It was not
+pushed. SDKs, caches, build outputs, machine settings and signing/live secrets
+remain excluded. Pattern checks found no credentials in the published files.
+
+GitHub Actions **passed** for the code commit: formatting, analysis, Flutter tests
+and release web build. Run: https://github.com/saiganeshraj/fixflow-flutter/actions/runs/43609710737.
+The final publication-record update changes documentation only and skips a
+duplicate CI run. Public web hosting, real database verification, stable Android
+acceptance and video remain pending; publishing source does not complete them.
+
 ## Design and Riverpod upgrade — 14 November 2026
 
 The user confirmed that the release preview worked and requested a stronger

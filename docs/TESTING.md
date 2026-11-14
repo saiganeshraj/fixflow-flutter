@@ -1,5 +1,11 @@
 # Verification record
 
+GitHub Actions passed for the published code commit `7e46dd9` on 14 November:
+[Flutter verification](https://github.com/saiganeshraj/fixflow-flutter/actions/runs/43609710737).
+The Linux job runs formatting, analysis, all Flutter tests and the release web
+build, then uploads the web artifact. Device and real database checks remain
+separate.
+
 14 November design/state update: **51 tests passed**, including three new provider
 tests for composed search/category/sort without refetching, asynchronous failures,
 and booking-stream/customer-scope changes. The full booking journey and all three

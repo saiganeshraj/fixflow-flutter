@@ -1,0 +1,48 @@
+name: fixflow
+description: FixFlow — Home service booking and job-tracking portfolio demo.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Local persistence
+  shared_preferences: ^2.3.5
+
+  # Utilities
+  uuid: ^4.5.1
+  equatable: ^2.0.7
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.2
+  supabase_flutter: ^2.18.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  integration_test:
+    sdk: flutter
+  http: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: FixFlowRoboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700

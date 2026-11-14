@@ -1,0 +1,19 @@
+﻿{
+    "name":  "FixFlow",
+    "short_name":  "FixFlow",
+    "start_url":  ".",
+    "display":  "standalone",
+    "background_color":  "#F5F3EF",
+    "theme_color":  "#007A7A",
+    "description":  "Fictional home-service booking and technician workflow.",
+    "orientation":  "portrait-primary",
+    "prefer_related_applications":  false,
+    "icons":  [
+                  {
+                      "purpose":  "any",
+                      "type":  "image/svg+xml",
+                      "sizes":  "any",
+                      "src":  "favicon.svg"
+                  }
+              ]
+}
